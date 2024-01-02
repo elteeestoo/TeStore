@@ -272,7 +272,7 @@ class Gallery extends HTMLElement {
                             </ul>
                             <div class="game-links">
                                 <h3 class="game-link">Saber Mas</h3>
-                                <h3 class="game-link">Añadir al carrito</h3>
+                                <h3 class="game-link">Añadir al carritos</h3>
                             </div>
                             <img src="images/shrek/saludo.png" alt="saludo">
                         </div>
