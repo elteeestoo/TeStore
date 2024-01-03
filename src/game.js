@@ -151,7 +151,7 @@ class Game extends HTMLElement {
 
             .game-info{
                 width: 50%;
-                height: 52vh;
+                height: 58vh;
                 padding: 2rem;
                 border-radius: 0px 10px 10px 0px;
                 box-shadow: 15px 2px 35px 10px rgba(204, 0, 102, 0.5); /* Sombra general */
@@ -159,25 +159,40 @@ class Game extends HTMLElement {
                     
             }
 
-            .buy-button{
+            .space{
                 display: flex;
                 justify-content: center;
-                gap: 10rem;
-                margin-top: 10rem;
-            }
-            .jimmy{
-                width:20%
-            }
-            .buy-now{
-                height: 10rem;
-                width: 50%
             }
 
+            .buy-info{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+                margin-top: 5rem;
+            }
+
+            .jimmy{
+                width:25%
+            }
+            .buy-button{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 10rem;
+                width: 100%
+            }
+            .buy-now{
+                width: 70%
+            }
             .buy-now:hover{
                 filter: brightness(0.7);
             }
-            .age-restrcition{
-                width: 2rem;
+            .age-restriction{
+                display: flex;
+                justify-content: center;
+                width: 25%;
+                align-items: center;
             }
         </style>
   
@@ -194,10 +209,18 @@ class Game extends HTMLElement {
                 <div class="game-info">
                     <h2>INFORMACION DEL PRODUCTO</h2>
                     <h4>Shuerk es el nuevo MMOPRPG no lineal de terror que hará que te tiemblen todos los huesos, de los creadores de Clash Royale, Hello Neighbour y Torrente 3, llega este aterrador juego basado en las peliculas del exorcista y shrek, en este caso la segunda en la cual se pueden ver apariciones del monstruo y del terrible asno violador de aves que buscaran matarte de cualquier manera</h4>
-                    <div class="buy-button">
-                        <img class="jimmy" src="images/neutron-style.gif" alt="jimmy">
-                        <img class="buy-now" src="images/buy-now.png" alt="de-pie"> 
-                        <img class="age-restriction" src="images/pegi.svg.png" alt="pegi">       
+                    <div class="buy-info">
+                        <div class="space">
+                            <img class="jimmy" src="images/neutron-style.gif" alt="jimmy">
+                        </div>
+                        <div class="space">
+                            <img class="age-restriction" src="images/shrek/pegi.svg.png" alt="pegi">
+                        </div>
+                        <div class="space"></div>
+                        <div class="buy-button">
+                            <h2>69,95€</h2>
+                            <img class="buy-now" src="images/buy-now.png" alt="de-pie"> 
+                        </div>       
                     </div>
                 </div>
             </div>

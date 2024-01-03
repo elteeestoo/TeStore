@@ -10,7 +10,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    border
+    
     position: relative;
     width: 100%;
 }
