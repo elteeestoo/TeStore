@@ -192,13 +192,21 @@ class Recomended extends HTMLElement {
             .overlay img {
                 width: 50%; /* Ajusté el ancho de la imagen dentro del overlay */
                 height: auto;
-                box-shadow: transparent;
+                box-shadow: none;
+                cursor: pointer;
                
                 
                 
             }
-            
 
+            .overlay .weird{
+                background-color: black;
+                width: 100%
+            }
+            
+            .overlay h3{
+                color: white;
+            }
             .overlay img:hover{
                 filter: brightness(1)
             }
@@ -213,56 +221,63 @@ class Recomended extends HTMLElement {
                     <div class="slide">
                         <img src="images/shrek/shrek.jpg" alt="Imagen 1">
                         <div class="overlay">
-                            
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <img src="images/shrek/shrek.jpg" alt="Imagen 1">
-                        <div class="overlay">
-                            <img src="images/shrek/de-chill.png" alt="chill">
-                            <h3>Shrek 2</h3>
-                        </div>
-                    </div>
-                    <div class="slide">
-
-                        <img src="images/shrek/shrek.jpg" alt="Imagen 1">
-                        <div class="overlay">
+                            <img src="images/cat.gif" alt="chill">
                             <h3>Shrek 2</h3>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="images/shrek/shrek.jpg" alt="Imagen 1">
                         <div class="overlay">
+                            <img src="images/skate.gif" alt="chill">
                             <h3>Shrek 2</h3>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="images/shrek/shrek.jpg" alt="Imagen 1">
                         <div class="overlay">
+                            <img class="jimmy" src="images/neutron-style.gif" alt="jimmy">
                             <h3>Shrek 2</h3>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="images/shrek/shrek.jpg" alt="Imagen 1">
                         <div class="overlay">
+                            <img class="shaggy" src="images/shaggy.gif" alt="shaggy">
                             <h3>Shrek 2</h3>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="images/shrek/shrek.jpg" alt="Imagen 1">
                         <div class="overlay">
+                            <img class="flanders" src="images/flanders.gif" alt="flanders">
+                            <h3>Shrek 2</h3>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/shrek/shrek.jpg" alt="Imagen 1">
+                        <div class="overlay">
+                            <img class="weird" src="images/weird.gif" alt="weird">
+                            <h3>Shrek 2</h3>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/shrek/shrek.jpg" alt="Imagen 1">
+                        <div class="overlay">
+                            <img class="walter" src="images/walter.gif" alt="walter">
                             <h3>Shrek 2</h3>>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="images/shrek/shrek.jpg" alt="Imagen 1">
                         <div class="overlay">
+                            <img class="benten" src="images/benten.gif" alt="benten">
                             <h3>Shrek 2</h3>
                         </div>
                     </div>
                     <div class="slide">
                         <img src="images/shrek/shrek.jpg" alt="Imagen 1">
                         <div class="overlay">
+                            <img class="pepe" src="images/pepe.gif" alt="pepe">
                             <h3>Shrek 2</h3>
                         </div>
                     </div>
