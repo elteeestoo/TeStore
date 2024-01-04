@@ -129,7 +129,12 @@ class Header extends HTMLElement {
                 height: 1.5rem;
                 color: hsl(330, 100%, 50%);
                 border: solid 2px aquamarine;
-                border-radius: 10px
+                border-radius: 10px;
+                box-shadow: 
+                    0 0 20px rgba(102, 204, 170, 0.15), /* Sombra general */
+                    0 0 20px 10px rgba(102, 204, 170, 0.15), /* Sombra derecha */
+                    0 0 20px -10px rgba(102, 204, 170, 0.15), /* Sombra izquierda */
+                    0 0 20px 10px rgba(102, 204, 170, 0.15); /* Sombra inferior */
             }
 
 

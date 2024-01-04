@@ -1,3 +1,5 @@
 import './header.js'
 import './gallery.js'
 import './game.js'
+import './cart.js'
+import './recomended.js'
