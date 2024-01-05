@@ -182,6 +182,11 @@ class Game extends HTMLElement {
                 height: 10rem;
                 width: 100%
             }
+            a{
+                display: flex;
+                width: 100%;
+                justify-content: center;
+            }
             .buy-now{
                 width: 70%
             }
@@ -211,7 +216,9 @@ class Game extends HTMLElement {
                     <h4>Shuerk es el nuevo MMOPRPG no lineal de terror que hará que te tiemblen todos los huesos, de los creadores de Clash Royale, Hello Neighbour y Torrente 3, llega este aterrador juego basado en las peliculas del exorcista y shrek, en este caso la segunda en la cual se pueden ver apariciones del monstruo y del terrible asno violador de aves que buscaran matarte de cualquier manera</h4>
                     <div class="buy-info">
                         <div class="space">
-                            <img class="jimmy" src="images/neutron-style.gif" alt="jimmy">
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D">
+                                <img class="jimmy" src="images/neutron-style.gif" alt="jimmy">
+                                </a>
                         </div>
                         <div class="space">
                             <img class="age-restriction" src="images/shrek/pegi.svg.png" alt="pegi">
@@ -219,7 +226,9 @@ class Game extends HTMLElement {
                         <div class="space"></div>
                         <div class="buy-button">
                             <h2>69,95€</h2>
-                            <img class="buy-now" src="images/buy-now.png" alt="de-pie"> 
+                            <a href="./carrito.html">
+                                <img class="buy-now" src="images/buy-now.png" alt="de-pie"> 
+                            </a>
                         </div>       
                     </div>
                 </div>

@@ -200,7 +200,7 @@ class Recomended extends HTMLElement {
             }
 
             .overlay .weird{
-                background-color: black;
+                
                 width: 100%
             }
             

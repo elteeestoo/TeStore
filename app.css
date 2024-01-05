@@ -25,7 +25,7 @@ main::before {
     background-image: url('images/fondo.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen de fondo */
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     filter: brightness(0.3
 
         ); /* Ajusta el valor según tus preferencias */
